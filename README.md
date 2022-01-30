@@ -1,7 +1,10 @@
 # sql-type_language
 Implementation of an sql type language with python
 
+
+
 **Here is an example code:**
+
 
 mem=Table('student', srid=[int], name=[str], marks=[int])
 
