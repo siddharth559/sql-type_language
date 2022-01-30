@@ -108,7 +108,7 @@ class Table:
                 return 1
             else: return 0
     def help(self):
-        print("hello coder this is pqql help assistant\n\nour developers commitee thanks you for choosing pyql and we hope we can provide you with the easiest querry language\n\nso in pyql we have the following querries:\n\nTable('table_name', column_name1=[datatype,conditions(like !null for not null and !space for no space),column_name2...]):for making table\n\n\
+        print("hello coder this is pyql help assistant\n\nour developers commitee thanks you for choosing pyql and we hope we can provide you with the easiest querry language\n\nso in pyql we have the following querries:\n\nTable('table_name', column_name1=[datatype,conditions(like !null for not null and !space for no space),column_name2...]):for making table\n\n\
 mem.addrow([value for column1 , value for column2 , ...]) for adding row {note : the vales should be according to their corresponding tablle datatype and coditions}\n\nmem.addcol('column_name', <datatype>, [value for row1, value for row2, ...]) add a new column to the table\n\nmem.col_operations('operator',<columns on which operation is to be performed>) do the particular operations on the table\n\nmem.select('column1','column2') display table[if nothing entered displays the complete table]\n\nmem.edit(any row element of the particular row where item to be edited is present,column_name,new_element) used for editing any particular value\n\nmem.help() for help :-)")
                 
 #'''
@@ -126,7 +126,7 @@ while True:
         if mem=='close':
             break
         else:
-            print("hello coder this is pqql help assistant\n\nWe thanks you for choosing pyql and we hope we can provide you with the easiest querry language\n\nso in pyql we have the following querries:\n\nTable('table_name', column_name1=[datatype,conditions(like !null for not null and !space for no space)],column_name2...):for making table\n\n\
+            print("hello coder this is pyql help assistant\n\nWe thanks you for choosing pyql and we hope we can provide you with the easiest querry language\n\nso in pyql we have the following querries:\n\nTable('table_name', column_name1=[datatype,conditions(like !null for not null and !space for no space)],column_name2...):for making table\n\n\
 mem.addrow([value for column1 , value for column2 , ...]) for adding row {note : the vales should be according to their corresponding tablle datatype and coditions}\n\nmem.addcol('column_name', <datatype>, [value for row1, value for row2, ...]) add a new column to the table\n\nmem.col_operations('operator',<columns on which operation is to be performed>) do the particular operations on the table\n\nmem.select('column1','column2') display table[if nothing entered displays the complete table]\n\nmem.edit(any row element of the particular row where item to be edited is present,column_name,new_element) used for editing any particular value\n\nmem.help() for help :-)\n HINT YOU CAN ALSO USE PYTHON WITH exex() FUNCTION")
 
 
